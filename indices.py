@@ -1,5 +1,4 @@
 
-#links simbolicos dos arquivos de /usr/lib4/R/*.so em /usr/lib64
 import rpy2.robjects as robjects
 from rpy2.robjects import pandas2ri
 
