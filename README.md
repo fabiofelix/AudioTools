@@ -118,10 +118,10 @@ Function *process.dir* generates log files to track the process. If index calcul
 ```R
 source("indices.R")
 
-#Process all recordings inside a directory
+#Process all recordings inside a directory and returns a matrix with the results
 files = process.dir("/home/user/recordings")
 
-#Process a specific recording
+#Process a specific recording and returns a matrix with the results
 one_file = process.file("/home/user/recordings/file.wav")
 
 #Divides recordings into 2-second clips before calculating indices 
